@@ -17,8 +17,8 @@ author:
     role:
       - "Writing - Review & Editing"
       - "Supervision"
-  - name          : "Cristina Dana Popescu"
-    affiliation   : "1"
+  - name          : "Gabriela Nicuță"
+    affiliation   : "2"
     role:
       - "Writing - Review & Editing"
       - "Supervision"
@@ -54,7 +54,7 @@ abstract: |
 keywords          : "keywords"
 wordcount         : "X"
 
-bibliography      : "r-references.bib"
+bibliography      : ["r-references.bib", "PI.bib"]
 
 floatsintext      : no
 linenumbers       : yes
@@ -64,28 +64,37 @@ mask              : no
 figurelist        : no
 tablelist         : no
 footnotelist      : no
-
+documentclass     : "apa7"
 classoption       : "man"
 output            : papaja::apa6_pdf
+header-includes:
+  - \usepackage[document]{ragged2e}
 ---
 
 ```{r setup, include = FALSE}
-library("papaja")
-r_refs("r-references.bib")
+  library("papaja"); library("readxl"); library("dplyr"); library("lubridate")
+  r_refs("r-references.bib")
 ```
 
 ```{r analysis-preferences}
 # Seed for random number generation
-set.seed(42)
-knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+  set.seed(4278)
+  knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
-
-
 # Methods
+\justify
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
 
 ## Participants
+```{r participants, echo=FALSE, include=FALSE}
+  source("01 - Sample.R")
+```
+
+For the **first sample**, *`r I.n` data* were collected between `r I.dt.sta` and `r I.dt.end`, `r I.onl.pr`% online and `r I.f.pr`% female, age between `r I.age.min` years and `r I.age.max` years (m=`r I.age.m`, sd=`r I.age.sd`). Between `r II.dt.sta` and `r II.dt.end`, *`r II.n` data* were collected for the **second sample**, `r II.onl.pr`% online and `r II.f.pr`% female, age between `r II.age.min` years and `r II.age.max` years (m=`r II.age.m`, sd=`r II.age.sd`).
+
+
+
 
 ## Material
 

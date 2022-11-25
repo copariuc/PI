@@ -7,9 +7,9 @@ Salut Cristi,
 Atașez ultima versiune a bazei de date PI (2586 de evaluări ) si sintaxa de scorare (+ itemi pe factori)
 Atasez si documentul finale legate de verificarea traducerii si retroversiunii traducerii chestionarului PI
  
-O primă verificare a consistenței interna am făcut-o pe 1233 de evaluări  (ianuarie 2022) …
+O primă verificare a consistenței interna am făcut-o pe *1233 de evaluări  (ianuarie 2022*) …
 Când am realizat aceste analize am făcut corecții pe unii itemi și le-am introdus in noua versiune a PI (pe PsihoProfile și pe Chestionarul PDF).
-Prin urmare avem de fapt doua baze de date: una până in ianuarie 2022 si o a doua de după ianuarie 2022 (cea care are câțiva itemi reformulați)
+Prin urmare avem de fapt doua baze de date: *una până in ianuarie 2022* si o a doua de *după ianuarie 2022* (cea care are câțiva itemi reformulați)
  
 Putem prezenta analizele preliminare realizate pe prima baza de date (1233 s) dar analizele finale de validare le vom face pe cel de al doilea sub-lot, cel de după ianuarie 2022 (cca. 1300 s)
  
