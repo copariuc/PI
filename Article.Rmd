@@ -22,6 +22,11 @@ author:
     role:
       - "Writing - Review & Editing"
       - "Supervision"
+  - name          : "Cristina Dana Popescu"
+    affiliation   : "1"
+    role:
+      - "Writing - Review & Editing"
+      - "Supervision"
 
 affiliation:
   - id            : "1"
