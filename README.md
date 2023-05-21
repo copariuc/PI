@@ -4,7 +4,7 @@ Primal Beliefs Inventory - Romanian Version Preliminary Devalopment
 # 25 noiembrie 2022
 Salut Cristi, 
  
-Atașez ultima versiune a bazei de date PI (2586 de evaluări ) si sintaxa de scorare (+ itemi pe factori)
+Atașez ultima versiune a bazei de date PI (2586 de evaluări) si sintaxa de scorare (+ itemi pe factori)
 Atasez si documentul finale legate de verificarea traducerii si retroversiunii traducerii chestionarului PI
  
 O primă verificare a consistenței interna am făcut-o pe *1233 de evaluări  (ianuarie 2022*) …
@@ -22,3 +22,7 @@ Repet, în funcție de cum vezi tu articolul, putem identifica si iti putem trim
 Mai întîi este musai sa avem o prima analiza a consistentei interne, distribuțiilor și structurii factoriale pe versiunea finală a PI (evaluările realizate din ianuarie până acum ….) 
  
 Cu încredere, 
+
+
+# Discutie 13 mai 2023
+

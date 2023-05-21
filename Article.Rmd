@@ -10,23 +10,31 @@ author:
     email         : "copariuc@gmail.com"
     role:         # Contributorship roles (e.g., CRediT, https://credit.niso.org/)
       - "Conceptualization"
+      - "Data curation"
+      - "Formal analysis"
+      - "Methodology"
       - "Writing - Original Draft Preparation"
       - "Writing - Review & Editing"
-  - name          : "Ticu Constantin"
-    affiliation   : "2"
-    role:
-      - "Writing - Review & Editing"
-      - "Supervision"
   - name          : "Gabriela Nicuță"
     affiliation   : "2"
     role:
+      - "Conceptualization"
+      - "Methodology"
+      - "Writing - Original Draft Preparation"
+      - "Writing - Review & Editing"
+      - "Supervision"
+  - name          : "Ticu Constantin"
+    affiliation   : "2"
+    role:
+      - "Investigaton"
+      - "Resources"
       - "Writing - Review & Editing"
       - "Supervision"
   - name          : "Cristina Dana Popescu"
     affiliation   : "1"
     role:
       - "Writing - Review & Editing"
-      - "Supervision"
+      - "Proofreading"
 
 affiliation:
   - id            : "1"
@@ -40,21 +48,7 @@ authornote: |
   Enter author note here.
 
 abstract: |
-  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
-  
-  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
-  
-  One sentence clearly stating the **general problem** being addressed by  this particular study.
-  
-  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
-  
-  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
-  
-  One or two sentences to put the results into a more **general context**.
-  
-  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
-  
-  <!-- https://tinyurl.com/ybremelq -->
+  One or two sentences 
   
 keywords          : "keywords"
 wordcount         : "X"
@@ -65,7 +59,6 @@ floatsintext      : no
 linenumbers       : yes
 draft             : no
 mask              : no
-
 figurelist        : no
 tablelist         : no
 footnotelist      : no
@@ -96,10 +89,7 @@ We report how we determined our sample size, all data exclusions (if any), all m
   source("01 - Sample.R")
 ```
 
-For the **first sample**, *`r I.n` data* were collected between `r I.dt.sta` and `r I.dt.end`, `r I.onl.pr`% online and `r I.f.pr`% female, age between `r I.age.min` years and `r I.age.max` years (m=`r I.age.m`, sd=`r I.age.sd`). Between `r II.dt.sta` and `r II.dt.end`, *`r II.n` data* were collected for the **second sample**, `r II.onl.pr`% online and `r II.f.pr`% female, age between `r II.age.min` years and `r II.age.max` years (m=`r II.age.m`, sd=`r II.age.sd`).
-
-
-
+For the **first sample**, *`r I.n` data* were collected between `r I.dt.sta` and `r I.dt.end`, `r I.onl.pr`% online, `r I.f.pr`% were female, age between `r I.age.min` years and `r I.age.max` years (m=`r I.age.m`, sd=`r I.age.sd`). Between `r II.dt.sta` and `r II.dt.end`, *`r II.n` data* were collected for the **second sample**, `r II.onl.pr`% online, and `r II.f.pr`% female, age between `r II.age.min` years and `r II.age.max` years (m=`r II.age.m`, sd=`r II.age.sd`).
 
 ## Material
 
@@ -108,8 +98,10 @@ For the **first sample**, *`r I.n` data* were collected between `r I.dt.sta` and
 ## Data analysis
 We used `r cite_r("r-references.bib")` for all our analyses.
 
-
 # Results
+## Reliability analysis
+
+
 
 # Discussion
 
