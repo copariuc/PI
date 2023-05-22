@@ -57,7 +57,7 @@ ds$studies <- ordered(ds$studies, levels = c("Fără școală", "Primare (4 clas
                                  'Doctoral school'))
 
 # Removing participants under 14 years old and saving dataset
-ds <- ds %>% filter(age > 14); ds.II <- ds; save(ds.I, file = "PI v1.RData")
+ds <- ds %>% filter(age > 14); ds.II <- ds; save(ds.II, file = "PI v2.RData")
 
 # Importing dataset PI Version T1 + T2 - ####
 #ds <- read_xlsx(path = "PI T1-T2.xlsx"); names(ds)
