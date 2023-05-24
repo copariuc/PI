@@ -19,41 +19,41 @@ Key <- list(
   # Stable = c('I.13', 'I.41', 'I.43', 'I.64', 'I.120', 'I.142'),               # Stabila ***
   Stable = c('I.13', 'I.41', 'I.43', 'I.64', 'I.120', 'I.142'),
   # Just = c('I.5', 'I.20', 'I.28', 'I.50', 'I.61', 'I.114', 'I.136'),          # Dreapta ***
-  Just = c('I.5', 'I.20', 'I.28', 'I.50', 'I.61', 'I.114'),
+  Just = c('I.5', 'I.20', 'I.28', 'I.50', 'I.61', 'I.114', 'I.136'),
   
   # SECONDARY FACTOR - Safe - Dangerous: Sigura - Periculoasa
-  Safe.Dangerous = c('I.30', 'I.66', 'I.75', 'I.98', 'I.105',            # Cooperative (no 105)
-                     'I.1', 'I.12', 'I.32', 'I.65', 'I.97', 'I.107',     # Harmless (no 107)
-                     'I.5', 'I.50', 'I.61', 'I.20', 'I.28', 'I.114',                     # Just (no 20, 28, 114)
-                     'I.15', 'I.42', 'I.69', 'I.83', 'I.86', 'I.117',    # Pleasurable (no 117)
-                     'I.39', 'I.52', 'I.58', 'I.89', 'I.118', 'I.140',            # Progressing (no 118, 140)
-                     'I.8', 'I.33', 'I.49', 'I.84', 'I.119', 'I.141',             # Regenerative (no 119, 141)
-                     'I.13', 'I.41', 'I.43', 'I.64', 'I.120', 'I.142'),           # Stable (no 120, 142)
+  Safe.Dangerous = c('I.30', 'I.66', 'I.75', 'I.98',                             # Cooperative (no 105)
+                     'I.1', 'I.12', 'I.32', 'I.65', 'I.97',                      # Harmless (no 107)
+                     'I.5', 'I.50', 'I.61',                                      # Just (no 20, 28, 114)
+                     'I.15', 'I.42', 'I.69', 'I.83', 'I.86',                     # Pleasurable (no 117)
+                     'I.39', 'I.52', 'I.58', 'I.89',                             # Progressing (no 118, 140)
+                     'I.8', 'I.33', 'I.49', 'I.84',                              # Regenerative (no 119, 141)
+                     'I.13', 'I.41', 'I.43', 'I.64'),                            # Stable (no 120, 142)
   
   # Interesting = c('I.44', 'I.51', 'I.68', 'I.88', 'I.113', 'I.135'),          # Interesanta ***
   Interesting = c('I.44', 'I.51', 'I.68', 'I.88', 'I.113', 'I.135'),
-  # Beautiful = c('I.31', 'I.36', 'I.60', 'I.95'),                              # Frumoasa ***
-  Beautiful = c('I.31', 'I.36', 'I.60', 'I.95'),
+  # Beautiful = c('I.31', 'I.36', 'I.60', 'I.95', 'I26'),                              # Frumoasa ***
+  Beautiful = c('I.31', 'I.36', 'I.60', 'I.95', 'I26'),
   # Abundant = c('I.3', 'I.17', 'I.70', 'I.96', 'I.102', 'I.123'),              # Bogata ***
   Abundant = c('I.3', 'I.17', 'I.70', 'I.96', 'I.102', 'I.123'),
   # Worth.Exploring = c('I.29', 'I.62', 'I.77', 'I.101', 'I.122', 'I.144'),     # Merita explorata ***
   Worth.Exploring = c('I.29', 'I.62', 'I.77', 'I.101', 'I.122', 'I.144'),
   # Meaningful = c('I.2', 'I.6', 'I.7', 'I.24', 'I.115', 'I.137'),              # Semnificativa ***
   Meaningful = c('I.2', 'I.6', 'I.7', 'I.24', 'I.115', 'I.137'),
-  # Improvable = c('I.4', 'I.16', 'I.27', 'I.40', 'I.76', 'I.109'),             # Usor de imbunatatit ***
-  Improvable = c('I.4', 'I.16', 'I.27', 'I.40', 'I.76', 'I.109'),
+  # Improvable = c('I.4', 'I.16', 'I.27', 'I.40', 'I.76', 'I.109', 'I.131'),    # Usor de imbunatatit ***
+  Improvable = c('I.4', 'I.16', 'I.27', 'I.40', 'I.76', 'I.109', 'I.131'),
   # Funny = c('I.18', 'I.99', 'I.37', 'I.47', 'I.106', 'I.128'),                # Amuzanta ***
   Funny = c('I.18', 'I.37', 'I.47', 'I.99', 'I.106', 'I.128'),
   
   # SECONDARY FACTOR - Enticing - Dull: Incitanta - Anosta
-  Enticing.Dull = c('I.3', 'I.17', 'I.70', 'I.96', 'I.102', 'I.123',              # Abundant (no 102, 123)
-                    'I.31', 'I.36', 'I.60', 'I.95',             # Beautiful
-                    'I.18', 'I.37', 'I.47', 'I.99', 'I.106', 'I.128',                     # Funny (no 99, 106, 128)
-                    'I.4', 'I.16', 'I.27', 'I.40', 'I.76', 'I.109',                      # Improvable (no 40, 76, 109)
-                    'I.44', 'I.51', 'I.68', 'I.88', 'I.113' , 'I.135',             # Interesting (no 113, 135)
-                    'I.2', 'I.6', 'I.7', 'I.24', 'I.116', 'I.137',                # Meaningful (no 115, 137)
-                    'I.29', 'I.62', 'I.77', 'I.101', 'I.144',            # Worth.Exploring (no 144)
-                    'I.26', 'I.59'),                            # Non tertiary factors' items
+  Enticing.Dull = c('I.3', 'I.17', 'I.70', 'I.96',                              # Abundant (no 102, 123)
+                    'I.31', 'I.36', 'I.60', 'I.95',                             # Beautiful
+                    'I.18', 'I.37', 'I.47',                                      # Funny (no 99, 106, 128)
+                    'I.4', 'I.16', 'I.27',                                       # Improvable (no 40, 76, 109)
+                    'I.44', 'I.51', 'I.68', 'I.88',                              # Interesting (no 113, 135)
+                    'I.2', 'I.6', 'I.7', 'I.24',                                 # Meaningful (no 115, 137)
+                    'I.29', 'I.62', 'I.77', 'I.101',                             # Worth.Exploring (no 144)
+                    'I.26', 'I.59'),                                             # Non tertiary factors' items
   
   # Intentional = c('I.23', 'I.53', 'I.54', 'I.55', 'I.85', 'I.110', 'I.132'),  # Cu scop ***
   Intentional = c('I.23', 'I.53', 'I.54', 'I.55', 'I.85', 'I.110'),
@@ -63,10 +63,10 @@ Key <- list(
   Interactive = c('I.46', 'I.74', 'I.79', 'I.94', 'I.100', 'I.111'),
   
   # SECONDARY FACTOR - Alive - Mechanistic: Vie - Mecanicista
-  Alive.Mechanistic = c('I.23', 'I.53', 'I.54', 'I.55', 'I.110',          # Intentional (no, 110)
-                        'I.5', 'I.20',                           # Just - Safe - Dangerous
-                        'I.46', 'I.74', 'I.94', 'I.100', 'I.79', 'I.111',         # Interactive (no, 79, 111)
-                        'I.29', 'I.62', 'I.77', 'I.101'),        # Worth.Exploring - Enticing - Dull
+  Alive.Mechanistic = c('I.23', 'I.53', 'I.54', 'I.55', 'I.85',          # Intentional (no, 110)
+                        'I.20',                           # Just - Safe - Dangerous
+                        'I.46', 'I.74', 'I.94', 'I.100',         # Interactive (no, 79, 111)
+                        'I.19', 'I.25', 'I.45', 'I.71'),       # Needs me
   
   # Unrelated factors
   # Acceptable = c('I.22', 'I.34', 'I.63', 'I.90', 'I.103', 'I.124'),           # Acceptabila ***
@@ -97,7 +97,7 @@ Key <- list(
                'I.13', 'I.41', 'I.43', 'I.64',               # Stable (no 120, 142)  
                'I.21', 'I.56', 'I.78', 'I.81',               # Understandable (no 121, 143)
                'I.29', 'I.62', 'I.77', 'I.101',              # Worth.Exploring (no 122, 144)
-               'I.26', 'I.59','I.72'))                       # Non tertiary factors' items
+               'I.26', 'I.59','I.72'))                       # Additional items
 
 # Consistency - Alpha - Phase 1 ####
 ## Loading datasets
