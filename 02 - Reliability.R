@@ -2,7 +2,7 @@
 if(!require(dplyr)) install.packages("dplyr")
 if(!require(psych)) install.packages("psych")
 
-library(dplyr); library(psych)
+library(dplyr); library(psych) 
 
 # Setting up keys ####
 Key <- list(
