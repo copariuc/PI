@@ -63,10 +63,10 @@ Key <- list(
   Interactive = c('I.46', 'I.74', 'I.79', 'I.94', 'I.100', 'I.111'),
   
   # SECONDARY FACTOR - Alive - Mechanistic: Vie - Mecanicista
-  Alive.Mechanistic = c('I.23', 'I.53', 'I.54', 'I.55', 'I.110',          # Intentional (no, 110)
-                        'I.5', 'I.20',                           # Just - Safe - Dangerous
-                        'I.46', 'I.74', 'I.94', 'I.100', 'I.79', 'I.111',         # Interactive (no, 79, 111)
-                        'I.29', 'I.62', 'I.77', 'I.101'),        # Worth.Exploring - Enticing - Dull
+  Alive.Mechanistic = c('I.23', 'I.53', 'I.54', 'I.55', 'I.85',          # Intentional (no, 110)
+                        'I.20',                           # Just - Safe - Dangerous
+                        'I.46', 'I.74', 'I.94', 'I.100',         # Interactive (no, 79, 111)
+                        'I.19', 'I.25', 'I.45', 'I.71'),       # Needs me
   
   # Unrelated factors
   # Acceptable = c('I.22', 'I.34', 'I.63', 'I.90', 'I.103', 'I.124'),           # Acceptabila ***
